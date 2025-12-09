@@ -1,0 +1,30 @@
+.brokeButton {
+    border: 2px solid #daa520;
+    width: 200px;
+    height: 150px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #e63946;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .2s
+}
+#colorBroke {
+      margin-top: 16px;
+      padding: 12px 16px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      min-height: 24px;
+      display: inline-block;
+      font-family: sans-serif;
+    }
+    #colorInput {
+        width: 150px;
+        height: 50px;
+    }
+    #colorName {
+        font-size: 30px;;
+    }
