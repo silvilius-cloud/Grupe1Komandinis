@@ -1,0 +1,48 @@
+.Rol-KaF {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+
+#Rol-KaFInput {
+    width: 500px;
+}
+
+.Rol-KaF #Rol-KaFValueBox {
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.Rol-KaG {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.Rol-KaG #Rol-KaGKvadratas {
+    width: 200px;
+    height: 200px;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: 0.2s ease;
+}
+
+.Rol-KaG .Rol-KaGInputs {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Rol-KaG .Rol-KaGInputs label {
+    font-size: 20px;
+}
