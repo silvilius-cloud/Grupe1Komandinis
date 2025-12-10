@@ -41,3 +41,46 @@ i2.addEventListener('input', update);
 //
 //
 
+const lcnasI = document.querySelector('.l-cnasI');
+
+const visiKv = document.createElement('div');
+visiKv.className = 'visi-kv';
+
+const info = document.createElement('div');
+info.className = 'kv-info';
+
+const kv1 = document.createElement('div');
+const kv2 = document.createElement('div');
+const kv3 = document.createElement('div');
+
+kv1.className = 'kv kv1';
+kv2.className = 'kv kv2';
+kv3.className = 'kv kv3';
+
+kv2.append(kv3);
+kv1.append(kv2);
+visiKv.append(kv1);
+
+lcnasI.append(visiKv, info);
+
+// KV 1
+kv1.addEventListener('click', (e) => {
+    e.stopPropagation();
+    info.innerText = 'Kvadratas 1';
+    info.style.backgroundColor = getComputedStyle(kv1).backgroundColor;
+});
+
+// KV 2
+kv2.addEventListener('click', (e) => {
+    e.stopPropagation();
+    info.innerText = 'Kvadratas 2';
+    info.style.backgroundColor = getComputedStyle(kv2).backgroundColor;
+});
+
+// KV 3
+kv3.addEventListener('click', (e) => {
+    e.stopPropagation();
+    info.innerText = 'Kvadratas 3';
+    info.style.backgroundColor = getComputedStyle(kv3).backgroundColor;
+});
+
