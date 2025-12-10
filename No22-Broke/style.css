@@ -1,1 +1,23 @@
-.brokeButton{border:2px solid #daa520;width:200px;height:150px;padding:12px 24px;font-size:16px;font-weight:600;color:#fff;background-color:#e63946;border:none;border-radius:6px;cursor:pointer;transition:.2s}#colorInput{width:150px;height:50px}#colorName{font-size:30px}
+.brokeButton {
+    border: 2px solid #daa520;
+    width: 200px;
+    height: 150px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #e63946;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .2s
+}
+
+#colorInput {
+    width: 150px;
+    height: 50px
+}
+
+#colorName {
+    font-size: 30px
+}
