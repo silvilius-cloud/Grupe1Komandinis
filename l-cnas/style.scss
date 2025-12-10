@@ -1,0 +1,23 @@
+.l-cnasE {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+
+    input {
+        padding: 6px;
+        font-size: 16px;
+        max-width: 200px;
+        border: 1px solid #9c9b9b;
+        border-radius: 4px;
+    }
+
+    div {
+        font-size: 20px;
+        user-select: none;
+        border: none;
+        background: none;
+        padding: 0;
+    }
+}
