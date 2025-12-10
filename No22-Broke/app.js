@@ -12,10 +12,10 @@ const brokeButton = document.querySelector('.brokeButton')
     e.target.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
 })
   
-const colorInput = document.getElementById('colorInput');
-    const colorNameDiv = document.getElementById('colorName');
+const colorInput22 = document.getElementById('colorInput22');
+    const colorNameDiv22 = document.getElementById('colorName22');
 
-    async function updateColorName(hexWithHash) {
+    async function updateColorName22(hexWithHash) {
       // Pašalinam # prieš siunčiant į API
       const hex = hexWithHash.replace('#', '');
 
@@ -30,27 +30,27 @@ const colorInput = document.getElementById('colorInput');
         // API grąžina spalvos vardą data.name.value
         const name = data.name && data.name.value ? data.name.value : 'Vardo nerasta';
 
-        colorNameDiv.textContent = `${name} (${hexWithHash})`;
+        colorNameDiv22.textContent = `${name} (${hexWithHash})`;
 
         // Papildomai – nuspalvinam foną ir parenkam kontrastinę teksto spalvą iš API
-        colorNameDiv.style.backgroundColor = hexWithHash;
+        colorNameDiv22.style.backgroundColor = hexWithHash;
         if (data.contrast && data.contrast.value) {
-          colorNameDiv.style.color = data.contrast.value;
+          colorNameDiv22.style.color = data.contrast.value;
         } else {
-          colorNameDiv.style.color = '#000000';
+          colorNameDiv22.style.color = '#000000';
         }
       } catch (error) {
         console.error(error);
-        colorNameDiv.textContent = 'Klaida gaunant spalvos vardą iš API';
-        colorNameDiv.style.backgroundColor = '';
-        colorNameDiv.style.color = '';
+        colorNameDiv22.textContent = 'Klaida gaunant spalvos vardą iš API';
+        colorNameDiv22.style.backgroundColor = '';
+        colorNameDiv22.style.color = '';
       }
     }
 
     // Reaguojam, kai vartotojas pasirenka spalvą
-    colorInput.addEventListener('input', (e) => {
-      updateColorName(e.target.value);
+    colorInput22.addEventListener('input', (e) => {
+      updateColorName22(e.target.value);
     });
 
     // Užkraunam pavadinimą pradinei vertei
-    updateColorName(colorInput.value);
+    updateColorName22(colorInput22.value);
