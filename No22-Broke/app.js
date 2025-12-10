@@ -16,9 +16,7 @@ const colorInput22 = document.getElementById('colorInput22');
     const colorNameDiv22 = document.getElementById('colorName22');
 
     async function updateColorName22(hexWithHash) {
-      // Pašalinam # prieš siunčiant į API
-      const hex = hexWithHash.replace('#', '');
-
+      const hex = hexWithHash.replace('#', '')
       try {
         const response = await fetch(`https://www.thecolorapi.com/id?hex=${hex}`);
         if (!response.ok) {
@@ -26,13 +24,9 @@ const colorInput22 = document.getElementById('colorInput22');
         }
 
         const data = await response.json();
-
-        // API grąžina spalvos vardą data.name.value
         const name = data.name && data.name.value ? data.name.value : 'Vardo nerasta';
 
         colorNameDiv22.textContent = `${name} (${hexWithHash})`;
-
-        // Papildomai – nuspalvinam foną ir parenkam kontrastinę teksto spalvą iš API
         colorNameDiv22.style.backgroundColor = hexWithHash;
         if (data.contrast && data.contrast.value) {
           colorNameDiv22.style.color = data.contrast.value;
@@ -47,10 +41,7 @@ const colorInput22 = document.getElementById('colorInput22');
       }
     }
 
-    // Reaguojam, kai vartotojas pasirenka spalvą
     colorInput22.addEventListener('input', (e) => {
       updateColorName22(e.target.value);
     });
-
-    // Užkraunam pavadinimą pradinei vertei
     updateColorName22(colorInput22.value);
