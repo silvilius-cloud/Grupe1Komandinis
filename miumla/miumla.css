@@ -1,0 +1,55 @@
+
+
+.miumlaB button {
+    display: block;
+    margin:100px auto;
+    padding: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.miumlaBsquare {
+    color: #355C7D;
+    background-color: #C06C8470;
+    border: 3px solid #355C7D;
+}
+
+.miumlaBcircle {
+    color:#C06C84;
+    background-color: #355C7D50;
+    border: 3px solid #C06C84;
+     width: 150px;
+    height: 150px;
+}
+
+.miumlaH {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+.miumlaH .miumlaHLabelContainer {
+    text-align: left;
+    width: 360px;
+}
+
+.miumlaH label, .miumlaH ol{
+    color: #355C7D;
+    font-size: 22px;
+}
+
+.miumlaH #miumlaHinput, .miumlaH button {
+    color: #355C7D;
+    border: 2px solid #355C7D;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.miumlaH #miumlaHinput {
+    background-color: #C06C8450;
+}
+
+.miumlaH button { 
+    background-color: #C06C8470;
+    cursor: pointer;
+}
