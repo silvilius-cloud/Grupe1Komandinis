@@ -1,0 +1,78 @@
+.l-cnasE {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+
+    input {
+        padding: 6px;
+        font-size: 16px;
+        max-width: 200px;
+        border: 1px solid #9c9b9b;
+        border-radius: 4px;
+    }
+
+    div {
+        font-size: 20px;
+        user-select: none;
+        border: none;
+        background: none;
+        padding: 0;
+    }
+}
+
+
+// I uzduotis
+
+.l-cnasI {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    .visi-kv {
+        width: 160px;
+        height: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .kv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    .kv1 {
+        width: 160px;
+        height: 160px;
+        background: #f31118;
+    }
+
+    .kv2 {
+        width: 110px;
+        height: 110px;
+        background: #5fe221;
+    }
+
+    .kv3 {
+        width: 60px;
+        height: 60px;
+        background: #f1e317;
+    }
+
+    .kv-info {
+        min-width: 160px;
+        min-height: 60px;
+        border: 1px solid #9c9b9b;
+        border-radius: 4px;
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
