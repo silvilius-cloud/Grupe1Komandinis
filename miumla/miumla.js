@@ -1,5 +1,3 @@
-console.log('I am a valuable part of the group...');
-
 // b. Sukurti mygtuką, kurį paspaudus jo forma pasikeičia į apskritimą, o paspaudus dar kartą grįžta į pradinę formą;
 
 const buttonCircleSquare = document.querySelector('.miumlaB button');
