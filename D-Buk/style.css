@@ -1,8 +1,8 @@
 
-        .C-D-Buk {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        C-D-Buk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }    
     .D-D-Buk {
         display: flex;
@@ -16,4 +16,3 @@
         .D-Buk #mirrorOutput {
             margin: 5px;
         }
-
