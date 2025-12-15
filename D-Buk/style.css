@@ -1,12 +1,19 @@
-        .D-Buk { 
-            font-family: monospace; 
-            margin: 20px; 
-            display: flex;
-            align-items: center;
-            justify-content: center; 
+
+        .C-D-Buk {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }    
+    .D-D-Buk {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .D-Buk button,
+        .D-Buk input,
+        .D-Buk #mirrorOutput {
+            margin: 5px;
         }
 
-        button, input, #mirrorOutput { 
-            margin: 5px; 
-        }
-        
