@@ -1,23 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Grupe1</title>
+    <script src="./No22-Broke/app.js" defer></script>
+    <script src="./miumla/miumla.js" defer></script>
+    <script src="./Rol-Ka/app.js" defer></script>
+    <script src="./l-cnas/app.js" defer></script>
+    <script src="./D-Buk/app.js" defer></script>
+    <link rel="stylesheet" href="./No22-Broke/style.css">
+    <link rel="stylesheet" href="./miumla/miumla.css">
+    <link rel="stylesheet" href="./Rol-Ka/style.css">
+    <link rel="stylesheet" href="./l-cnas/style.css">
+    <link rel="stylesheet" href="./D-Buk/style.css">
+
 </head>
+
 <body>
-    <div>
-        <button id="buttonX">X</button>
-        <button id="buttonO">O</button>
-    </div>
-    
-    <div>
-        <input type="text" id="textInput" placeholder="type here">
-        <div id="mirrorOutput"></div>
-    </div>
+    <section class="No22-BrokeA">
+        <button class="brokeButton">Click Me</button>
+    </section>
+    <section class="miumlaB">
+        <button></button>
+    </section>
+    <section class="D-BukC"></section>
+    <section class="D-BukD"></section>
+    <section class="l-cnasE"></section>
+    <section class="Rol-KaF">
+        <input type="range" id="Rol-KaFInput" min="10" max="99" step="1" value="10">
+        <div id="Rol-KaFValueBox">10</div>
+    </section>
 
-    <script src="script.js"></script>
+
+    <section class="Rol-KaG">
+        <div id="Rol-KaGKvadratas">Kugelis</div>
+
+        <div class="Rol-KaGInputs">
+            <label>
+                Kvadrato spalva:
+                <input type="color" id="kvadratoSpalva" value="#4CAF50">
+            </label>
+
+            <label>
+                Teksto spalva:
+                <input type="color" id="tekstoSpalva" value="#ffffff">
+            </label>
+        </div>
+    </section>
+
+    <section class="miumlaH">
+        <div class="miumlaHLabelContainer">
+            <label for="miumlaHinput">Aš viską prisimenu alfabetiškai...</label>
+        </div>
+        <div>
+            <input id="miumlaHinput" type="text" placeholder="Įrašyk žodį">
+            <button>Pridėti</button>
+            <ol></ol>
+        </div>
+    </section>
+    <section class="l-cnasI"></section>
+    <section class="No22-BrokeJ">
+        <label for="colorInput22">Pasirink spalvą:</label>
+        <input type="color" id="colorInput22" value="#0047AB">
+        <div id="colorName22">Spalvos vardas atsiras čia</div>
+    </section>
+
 </body>
-</html>
 
+</html>
