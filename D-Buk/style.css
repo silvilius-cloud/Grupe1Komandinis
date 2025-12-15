@@ -1,13 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
         body { font-family: monospace; margin: 20px; }
         button, input, #mirrorOutput { margin: 5px; }
 =======
         body { 
+=======
+        .D-Buk { 
+>>>>>>> 9deb3f8b204b9e45c0ca927b69921b89844baab6
             font-family: monospace; 
             margin: 20px; 
             display: flex;
             align-items: center;
-        justify-content: center; 
+            justify-content: center; 
         }
 
         button, input, #mirrorOutput { 
