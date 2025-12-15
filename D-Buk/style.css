@@ -1,2 +1,17 @@
+<<<<<<< HEAD
         body { font-family: monospace; margin: 20px; }
         button, input, #mirrorOutput { margin: 5px; }
+=======
+        body { 
+            font-family: monospace; 
+            margin: 20px; 
+            display: flex;
+            align-items: center;
+        justify-content: center; 
+        }
+
+        button, input, #mirrorOutput { 
+            margin: 5px; 
+        }
+        
+>>>>>>> 2dc180d1d6f7160473e702c684f62f5aa3fd5080
