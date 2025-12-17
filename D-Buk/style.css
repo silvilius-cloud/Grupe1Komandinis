@@ -2,19 +2,34 @@
     display: flex;
     align-items: center;
     justify-content: center;
-};
+    min-height: 100px; 
+}
 
 .D-BukD {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-};
+    min-height: 100px;
+}
 
 .D-BukC button {
     margin: 5px;
-};
+    padding: 10px 20px;
+    font-size: 16px;
+}
 
-.D-BukD
-#mirrorOutput {
+.D-BukD input {
     margin: 5px;
-};
+    padding: 8px;
+    width: 200px;
+}
+
+.D-BukD #mirrorOutput {
+    margin: 5px;
+    padding: 8px;
+    min-height: 20px;
+    border: 1px solid #ddd;
+    width: 200px;
+    text-align: center;
+}
